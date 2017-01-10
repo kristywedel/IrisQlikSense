@@ -1,17 +1,10 @@
 
 require(caret)
-require(kernlab)
 require(randomForest)
-require(lubridate)
-require(e1071)
-require(pROC)
-require(mlbench)
-require(pglm)
-require(dplyr)
-require(plyr)
-require(data.table)
-require(lubridate)
 set.seed(4444)
+iris <- read.csv("iris.csv")
+#remove the index
+iris$X <- NULL
 
 inTrain <- createDataPartition(y=iris$Species, p=0.75, list = FALSE)
 training <- iris[inTrain,]
@@ -31,8 +24,6 @@ oose
 importance(iris.rf)
 importance(iris.rf, type=1)
 varImpPlot(iris.rf,type=2)
-
-##Make validation set too
 
 pred <- predict(iris.rf,validation,"prob")
 res <- predict(iris.rf,validation,"response")

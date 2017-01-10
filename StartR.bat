@@ -1,1 +1,0 @@
-"C:\Program Files\R\R-3.3.2\bin\R.exe" CMD BATCH "C:\Users\kmw014\Desktop\QlikR\startR.R"
