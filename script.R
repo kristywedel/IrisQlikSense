@@ -23,7 +23,10 @@ oose
 
 importance(iris.rf)
 importance(iris.rf, type=1)
+
+png(filename='plot.png', width = 600, height = 600, res = 80)
 varImpPlot(iris.rf,type=2)
+dev.off()
 
 pred <- predict(iris.rf,validation,"prob")
 res <- predict(iris.rf,validation,"response")
