@@ -3,6 +3,9 @@ The IrisApp.qvf runs an R script through a call to a batch file. The R script lo
 
 Link to Iris data information https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/iris.html
 
+Model Var Importance:
+![alt tag](https://github.com/kristywedel/IrisQlikSense/blob/master/plot.png)
+
 ##Installation Steps
 1.) To allow the use of absolute or relative file paths, enable legacy mode by modifying  
 
