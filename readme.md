@@ -13,6 +13,10 @@ https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/iris.html
 ![alt tag](https://github.com/kristywedel/IrisQlikSense/blob/master/QlikSense.PNG)
 
 ##Installation Steps
+If R is not installed, it can be downloaded at https://cran.r-project.org/bin/windows/base/
+If Qlik Sense is not installed, it can be downloaded at 
+http://www.qlik.com/us/try-or-buy/download-qlik-sense
+
 1.) To allow the use of absolute or relative file paths, enable legacy mode by modifying  
 
     Open C:\Users\{user}\Documents\Qlik\Sense\Settings.ini in a text editor
@@ -30,5 +34,5 @@ If you don't wish to enable legacy mode, change the paths in the data load edito
 
 Qlik help link: http://help.qlik.com/en-US/sense/3.1/Subsystems/Hub/Content/Scripting/ScriptRegularStatements/Execute.htm 
 
-3.) Unzip files to desired location. Start the Qlik Sense Desktop hub. Drag IrisApp.qvf to the hub to open it.
+3.) Unzip files to desired location. Modify the RunR.bat file with the location of R.exe. Start the Qlik Sense Desktop hub. Drag IrisApp.qvf to the hub to open it.
 
