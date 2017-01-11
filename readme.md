@@ -39,3 +39,5 @@ Qlik help link: http://help.qlik.com/en-US/sense/3.1/Subsystems/Hub/Content/Scri
 
 3.) Unzip files to desired location. Modify the RunR.bat file with the location of R.exe. Start the Qlik Sense Desktop hub. Drag IrisApp.qvf to the hub to open it.
 
+![alt tag](https://github.com/kristywedel/IrisQlikSense/blob/master/settings1.PNG)
+
