@@ -35,5 +35,7 @@ If you don't wish to enable legacy mode, change the paths in the data load edito
 
 Qlik help link: http://help.qlik.com/en-US/sense/3.1/Subsystems/Hub/Content/Scripting/ScriptRegularStatements/Execute.htm 
 
+![alt tag](https://github.com/kristywedel/IrisQlikSense/blob/master/settings.PNG)
+
 3.) Unzip files to desired location. Modify the RunR.bat file with the location of R.exe. Start the Qlik Sense Desktop hub. Drag IrisApp.qvf to the hub to open it.
 
