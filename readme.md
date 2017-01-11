@@ -20,7 +20,8 @@ http://www.qlik.com/us/try-or-buy/download-qlik-sense
 1.) To allow the use of absolute or relative file paths, enable legacy mode by modifying  
 
     Open C:\Users\{user}\Documents\Qlik\Sense\Settings.ini in a text editor
-    Change StandardReload=1 to StandardReload=0
+    If the line 'StandardReload=1' is already in the file, change StandardReload=1 to StandardReload=0. Otherwise, add the line StandardReload=0.
+	Insert an empty line at the end of the file
     Save the file
 
 If you don't wish to enable legacy mode, change the paths in the data load editor to use a library. Qlik help link: http://help.qlik.com/en-US/sense/3.1/Subsystems/Hub/Content/LoadData/disable-standard-mode.htm
